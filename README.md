@@ -16,15 +16,15 @@ A beautiful terminal UI for managing GCP Secret Manager secrets, built with [Bub
 ## Installation
 
 ```bash
-go install github.com/jamuriano/go-secrets@latest
+go install github.com/theburrowhub/go-secret@latest
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/jamuriano/go-secrets.git
-cd go-secrets
-go build -o go-secrets .
+git clone https://github.com/theburrowhub/go-secret.git
+cd go-secret
+go build -o go-secret .
 ```
 
 ## Usage

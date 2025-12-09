@@ -1,4 +1,4 @@
-module github.com/jamuriano/go-secrets
+module github.com/theburrowhub/go-secret
 
 go 1.21
 

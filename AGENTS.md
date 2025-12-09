@@ -69,7 +69,11 @@ chore(deps): update bubble tea to v1.2.4
 
 ## About the project
 
-### go-secrets
+### go-secret
+
+- **Repository:** https://github.com/theburrowhub/go-secret
+- **Module:** `github.com/theburrowhub/go-secret`
+- **License:** MIT
 
 TUI (Terminal User Interface) application for managing GCP Secret Manager secrets.
 
@@ -85,7 +89,7 @@ TUI (Terminal User Interface) application for managing GCP Secret Manager secret
 ### Architecture
 
 ```
-go-secrets/
+go-secret/
 ├── main.go                     # Main entry point
 ├── internal/
 │   ├── config/

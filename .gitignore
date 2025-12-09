@@ -1,4 +1,5 @@
 # Binaries
+go-secret
 go-secrets
 *.exe
 *.exe~
@@ -10,6 +11,7 @@ go-secrets
 build/
 dist/
 tmp/
+bin/
 
 # Test binary
 *.test
@@ -17,6 +19,7 @@ tmp/
 # Output of the go coverage tool
 *.out
 coverage.html
+coverage.txt
 
 # Dependency directories
 vendor/
@@ -27,15 +30,32 @@ vendor/
 *.swp
 *.swo
 *~
+*.sublime-workspace
+*.sublime-project
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # Debug
 debug.log
 build-errors.log
+*.log
 
 # Air (hot reload)
 .air.toml
 
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Go workspace
+go.work
+go.work.sum

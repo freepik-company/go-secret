@@ -14,8 +14,8 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/jamuriano/go-secrets/internal/config"
-	"github.com/jamuriano/go-secrets/internal/gcp"
+	"github.com/theburrowhub/go-secret/internal/config"
+	"github.com/theburrowhub/go-secret/internal/gcp"
 )
 
 // View represents the current view state

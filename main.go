@@ -6,8 +6,8 @@ import (
 	"os"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/jamuriano/go-secrets/internal/config"
-	"github.com/jamuriano/go-secrets/internal/ui"
+	"github.com/theburrowhub/go-secret/internal/config"
+	"github.com/theburrowhub/go-secret/internal/ui"
 )
 
 func main() {
