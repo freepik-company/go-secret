@@ -6,7 +6,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - 'pages/**'
+      - 'docs/**'
       - '.github/workflows/pages.yml'
   
   # Allows you to run this workflow manually from the Actions tab
@@ -40,8 +40,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the pages directory
-          path: './pages'
+          # Upload the docs directory
+          path: './docs'
       
       - name: Deploy to GitHub Pages
         id: deployment
